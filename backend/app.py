@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 import yfinance as yf
-from models import db, Stock
+from backend.models import db, Stock
 
 app = Flask(__name__)
 CORS(app)
